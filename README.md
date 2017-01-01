@@ -6,16 +6,16 @@ Japanese font(GenShinGothic) is installed, so you can generate a PDF including t
 
 ## Requrements
 
-- VirtualBox, tested with v5.1.4
-- Vagrant, tested with v1.8.5
-
-NOTE: Vagrant 1.8.5 has a authentication issue. Please apply the patch manually or use 1.8.4. see:[Authentication failure after inserting new key with Vagrant 1\.8\.5\. \[PATCH\] · Issue \#7610 · mitchellh/vagrant](https://github.com/mitchellh/vagrant/issues/7610)
-
+- VirtualBox, tested with v5.1.12
+- Vagrant, tested with v1.9.2
+- [vagrant\-winnfsd](https://github.com/winnfsd/vagrant-winnfsd)
+- [vagrant\-vbguest](https://github.com/dotless-de/vagrant-vbguest)
 
 ## Virtual Machine Specifications
 
 - OS : CentOS 7
-- [GitBook](https://github.com/GitbookIO/gitbook) 3.2.0
-- [calibre](https://calibre-ebook.com/) 2.67
-- [Node\.js](https://nodejs.org/) 6.4.0
+- [gitbook-cli](https://github.com/GitbookIO/gitbook-cli) 2.3.0
+- [GitBook](https://github.com/GitbookIO/gitbook) latest release (3.2.2 or later)
+- [calibre](https://calibre-ebook.com/) latest release (2.76.0 or later)
+- [Node\.js](https://nodejs.org/) 6.9.2
 - [GenShinGothic](http://jikasei.me/font/genshin/) 1.002.20150607
